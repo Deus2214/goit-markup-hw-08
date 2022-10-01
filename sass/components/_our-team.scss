@@ -1,0 +1,133 @@
+.our-team__title {
+  
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  
+    color: #212121;
+  }
+  .our-team__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+          
+        }
+
+
+  }
+  .our-team__img-5 {
+    
+  
+    background: url(2968.jpg);
+    border-radius: 0px;
+  }
+  
+  .our-team__img-6 {
+  
+    background: url(5844.jpg);
+    border-radius: 0px;
+  }
+  .our-team__img-7 {
+    background: url(16166.jpg);
+    border-radius: 0px;
+  }
+  
+  .our-team__img-8 {
+   
+  
+    background: url(4853.jpg);
+    border-radius: 0px;
+  }
+  .our-team__social {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .our-team__command {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #f5f4fa;
+  }
+  
+  
+  .contacts-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .our-team {
+    padding: 94px 0;
+    background-color: #f5f4fa;
+  }
+  .our-team__name {
+    
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    margin-bottom: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #212121;
+  }
+  
+  
+  .our-team__work {
+    line-height: 1.2;
+    margin-bottom: auto;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+  }
+  
+  
+  
+  .social-icon-3 {
+    fill: #f5f4fa;
+  }
+  
+  .social-icon:hover {
+    fill: #f5f4fa;
+  }
+  
+  .social-icon:focus {
+    fill: #f5f4fa;
+  }
+  .clients-team {
+    padding: 94px 0;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-text-color);
+    border-radius: 50%;
+    fill: #afb1b8;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-link:hover {
+    fill: #f5f4fa;
+    background-color: #2196f3;
+  }
+  .social-link:focus {
+    fill: #f5f4fa;
+    background-color: #2196f3;
+  }
+  

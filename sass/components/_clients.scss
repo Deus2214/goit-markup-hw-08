@@ -1,0 +1,84 @@
+.clients__tittle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .clients__icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+   
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+          
+
+  }
+}
+  .clients__icon {
+    width: 170px;
+    height: 92px;
+  }
+  .clients__link {
+    fill: #afb1b8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    border: 1px solid #afb1b8;
+  }
+
+
+  .social-icon-3 {
+    fill: #f5f4fa;
+  }
+  
+  .social-icon:hover {
+    fill: #f5f4fa;
+  }
+  
+  .social-icon:focus {
+    fill: #f5f4fa;
+  }
+  .clients-team {
+    padding: 94px 0;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-text-color);
+    border-radius: 50%;
+    fill: #afb1b8;
+    transition-property: background-color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .social-link:hover {
+    fill: #f5f4fa;
+    background-color: #2196f3;
+  }
+  .social-link:focus {
+    fill: #f5f4fa;
+    background-color: #2196f3;
+  }
+  .clients__link:hover {
+    fill: #2196f3;
+    border-color: #2196f3;
+  }
+  .clients__link:focus {
+    fill: #2196f3;
+    border-color: #2196f3;
+  }

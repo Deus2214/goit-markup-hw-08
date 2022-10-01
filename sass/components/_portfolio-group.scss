@@ -1,0 +1,178 @@
+.group__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .group__thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+  
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(33, 150, 243, 0.9);
+   
+    outline-offset: -2px;
+    transition: transform 1500ms;
+   
+  }
+  .overlay-desc {
+    width: 322px;
+    height: 168px;
+    left: 239px;
+    top: 323px;
+  
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    
+  
+    letter-spacing: 0.03em;
+  
+    color: #ffffff;
+  }
+  .portfolio-moving-link {
+    display: block;
+    transition-property: border, box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(0);
+  }
+  .portfolio-moving-link:hover .overlay {
+    display: block;
+    transform: translateY(0);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .portfolio-moving-link:focus .overlay{
+    display: block;
+    transform: translateY(0);
+   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .group__text {
+  
+    text-decoration: none;
+    width: 370px;
+      overflow: hidden;
+      transition-property: box-shadow;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  
+  .group__text:hover{
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+  }
+  
+  .group__text:focus{
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%), 1px 4px 6px rgb(0 0 0 / 16%);
+  }
+  .img-1 {
+    /* img */
+  
+    background: url(portfolio1.jpg);
+  }
+  .img-2 {
+    /* img */
+  
+    background: url(portfolio2.jpg);
+  }
+  .img-3 {
+    /* img */
+  
+    background: url(portfolio-1.jpg);
+  }
+  .img-4 {
+    /* img */
+  
+    background: url(portfolio-2.jpg);
+  }
+  .img-5 {
+    /* img */
+  
+    background: url(portfolio5.jpg);
+  }
+  .img-6 {
+    /* img */
+  
+    background: url(111.jpg);
+  }
+  .img-7 {
+    /* img */
+  
+    background: url(portfolio7.jpg);
+  }
+  .img-8 {
+    /* img */
+  
+    background: url(portfolio8.jpg);
+  }
+  
+  .img-9 {
+    /* img */
+  
+    background: url(2910404.jpg);
+  }
+  
+  .group__name {
+    /* Технокряк */
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+  
+    letter-spacing: 0.06em;
+  
+    color: #212121;
+  }
+  .group__name-2 {
+    /* Постер New Orlean vs Golden Star */
+  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    margin-bottom: 4px;
+    letter-spacing: 0.06em;
+  
+    color: #212121;
+  }
+  .container-text2 {
+    padding-left: 24px;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    border-right: 1px solid  rgb(240, 234, 234);
+    border-left: 1px solid  rgb(240, 234, 234);
+    border-bottom: 1px solid  rgb(240, 234, 234);
+  }
+  .text {
+    /* Веб-сайт */
+  
+    font-weight: 400;
+  
+    line-height: 1.2;
+    /* identical to box height, or 188% */
+  
+    letter-spacing: 0.03em;
+  
+    color: #757575;
+  }
