@@ -5,12 +5,13 @@
   background: #ffffff;
 }
 .container {
-  width: 1200px;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .header-container {
   align-items: center;
   display: flex;

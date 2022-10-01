@@ -14,8 +14,19 @@
 }
 
 .working__list {
+
   display: flex;
+ flex-wrap: wrap;
   gap: 30px;
+ 
+  justify-content: center;
+
+
+
+  @media screen and (min-width: 1200px) {
+    flex-wrap: nowrap;
+    
+  }
 }
 .working__item {
   width: 270px;
@@ -39,5 +50,5 @@
  
   letter-spacing: 0.03em;
   color: #757575;
-} */
+} 
   

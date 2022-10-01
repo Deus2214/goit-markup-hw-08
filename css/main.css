@@ -15,6 +15,9 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (min-width: 1200px) {
   .clients__icons {
@@ -179,7 +182,7 @@
 }
 
 .container {
-  width: 1200px;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -523,6 +526,9 @@ textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (min-width: 1200px) {
   .our-team__list {
@@ -736,7 +742,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   background-position: center;
-  max-width: 1600px;
+  max-width: 1200px;
   height: 600px;
 }
 
@@ -763,7 +769,6 @@ textarea {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  width: 690px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -794,6 +799,9 @@ textarea {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media screen and (min-width: 1200px) {
   .working__list {
@@ -802,32 +810,21 @@ textarea {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .working__item {
-    -ms-flex-preferred-size: calc((100% - 30px) / 2);
-        flex-basis: calc((100% - 30px) / 2);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .working__item {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-  }
+.working__item {
+  width: 270px;
 }
 
 .working__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  max-width: 250px;
+  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -919,6 +916,28 @@ li a:focus {
       flex-wrap: wrap;
   gap: 30px;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    text-align: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 
 .footer__container {
   display: -webkit-box;
@@ -931,6 +950,11 @@ li a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 @media screen and (min-width: 768px) {
   .footer__container {
@@ -956,12 +980,13 @@ li a:focus {
 }
 
 .footer__box {
+  margin-left: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
 }
 
 .footer__text {
@@ -1147,7 +1172,6 @@ textarea {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
-  width: 200px;
   height: 50px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -1408,11 +1432,19 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
+}
+@media screen and (min-weight: 1200) {
+  .filters {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 .filters .button.button-item {
@@ -1487,6 +1519,15 @@ ul {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (min-weight: 1200px) {
+  .group__filters {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
 }
 
 .group__thumb {
