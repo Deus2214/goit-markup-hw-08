@@ -59,6 +59,14 @@
           </li>
         </ul>
       </div>
+      <button class="menu-btns js-open-menu" 
+      type="button"
+      aria-expanded="false" 
+      aria-controls="mobilo-menu">
+        <svg width="40" height="40">
+          <use href="./icons/symbol-defs.svg#menu-opens"></use>
+        </svg>
+      </button>
     </header>
     <!--Основний контент-->
     <main>
@@ -324,5 +332,50 @@
       </div>
       
     </footer>
+  </div>
+  <div class="menu-container js-menu-container" id="mobile-menu">
+    <button class="menu-toggle js-close-menu">
+      <svg width="40" height="40">
+        <use href="./icons/symbol-defs.svg#menu-clouses"></use>
+      </svg>
+    </button>
+
+    <ul class="mobile-menu list">
+      <li>
+        <a href="" class="link">Cтудія</a>
+      </li>
+      <li>
+        <a href="" class="link">Портфоліо</a>
+      </li>
+      <li>
+        <a href="" class="link">Контакти</a>
+      </li>
+   
+    </ul>
+
+    <ul class="list">
+      <li>
+        <a href="" class="link">+38 096 111 11 11</a>
+      </li>
+      <li>
+        <a href="" class="link">info@devstudio.com</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-socials list">
+      <li><a href="" class="link">Instagram </a></li>
+      <li><a href="" class="link">Twitter</a></li>
+      <li><a href="" class="link">Facebook</a></li>
+      <li><a href="" class="link">LinkedIn</a></li>
+    </ul>
+  </div>
+
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
