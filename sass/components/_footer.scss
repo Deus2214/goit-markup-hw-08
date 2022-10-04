@@ -45,11 +45,14 @@ flex-wrap: wrap;
 }
 
   .footer__box {
-    margin-left: 70px;
+  
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
   
   .footer__text {
@@ -167,7 +170,7 @@ flex-wrap: wrap;
   
   /* footer__site */
   .footer__site {
-    margin-left: auto;
+    // margin-left: auto;
 
   }
   

@@ -24,18 +24,18 @@
       gap: 10px;
       margin-left: auto;
     }
+
+    
     @media screen and (min-width: 1200px){
       display: flex;
-    
-    gap: 50px;
+   flex-direction: row;
+    gap: 30px;
     
     }
   }
   .nav__mains{
     display: flex;
-    gap: 50px;
-  
- 
+ gap: 50px;
     @media screen and (max-width:767px) {
       display: none;
       

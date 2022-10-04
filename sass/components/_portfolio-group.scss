@@ -3,11 +3,14 @@
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    flex-direction: row;
+
     @media screen and (min-weight:1200px) {
       flex-wrap: nowrap;
-      
     }
   }
+
+
   .group__thumb {
     position: relative;
     overflow: hidden;
@@ -72,13 +75,23 @@
   }
   
   .group__text {
-  
+    
+   
     text-decoration: none;
-    width: 370px;
+    // width: 370px;
       overflow: hidden;
       transition-property: box-shadow;
       transition-duration: 250ms;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+   
+        @media screen and (min-width: 768px) {
+       
+      flex-basis: calc((100% - 30px) / 2);
+     }
+   @media screen and (min-weight: 1200px) {
+   flex-basis: calc((100% - 60px) / 3);
+    
+   } 
     
   }
   
