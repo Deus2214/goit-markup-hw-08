@@ -2073,11 +2073,11 @@ textarea {
 
 .mobile-menu {
   margin-bottom: auto;
-  margin-top: auto;
 }
 
 .link-list {
-  margin-bottom: auto;
+  padding-bottom: 32px;
+  width: 139px;
 }
 
 .menu-toggle {
