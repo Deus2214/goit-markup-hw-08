@@ -9,10 +9,13 @@
     gap: 10px;
     margin-left: auto;
   }
+
+  
   @media screen and (min-width: 1200px){
     display: flex;
+ flex-direction: row;
+  gap: 30px;
   
- 
   }
 }
 .nav__displays{

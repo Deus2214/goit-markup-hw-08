@@ -1348,6 +1348,11 @@ li a:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 30px;
   }
 }
 
@@ -2068,7 +2073,11 @@ textarea {
 
 .mobile-menu {
   margin-bottom: auto;
-  width: 20px;
+  margin-top: auto;
+}
+
+.link-list {
+  margin-bottom: auto;
 }
 
 .menu-toggle {
