@@ -5,6 +5,15 @@
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (max-width: 480px){
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+    };
+      
+   
   }
   
   .footer__box {
@@ -15,7 +24,19 @@
     margin-bottom: 30px;
     margin-top: 20px;
     justify-content: center;
+    padding-left: 109px;
   }
+.footer__boxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  justify-content: center;
+  padding-left: 109px;
+
+}
   
   .footer__text {
     font-style: normal;
@@ -150,6 +171,7 @@
   
   .footer__site {
     margin-left: auto;
+// padding-left: 109px;
   }
   
   .subscribe {
@@ -167,6 +189,7 @@
     display: -ms-flexbox;
     display: flex;
     gap: 12px;
+    align-items: center;
   }
   
   .form-text input {
