@@ -183,14 +183,23 @@ flex-wrap: wrap;
     line-height: 16px;
     text-transform: uppercase;
     margin-bottom: 20px;
+    
   }
   
   .form-text {
+  @media screen and (max-width:768px) {
+      flex-direction: column;
+
+      
+    }
     display: flex;
     gap: 12px;
-    flex-direction: column;
+    
     justify-content: center;
   
+   @media screen and (min-width: 1200px){
+     padding-left: 105px;
+   }
   }
   
   .form-text input {

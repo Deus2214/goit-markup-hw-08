@@ -40,14 +40,21 @@ padding-left: 40px;
 
 .mobile-menu{
     margin-bottom: auto;
+    font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+letter-spacing: 0.02em;
+
+color: #212121;
     
 }
 
-.link-list{
+// .link-list{
 
- padding-bottom: 32px;
- width: 139px;
-}
+//  padding-bottom: 32px;
+//  width: 139px;
+// }
 .menu-toggle{
     position: absolute;
     top: 20px;
@@ -58,6 +65,22 @@ padding-left: 40px;
     display: flex;
     margin-top: 40px;
     gap: 40px;
-    padding-left: 40px;
+    
     padding-right: 83px;
+}
+.link-2{
+    font-weight: 500;
+font-size: 34px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #2196F3;
+margin-bottom: 32px;
+}
+.links{
+    font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.02em;
+
+color: #757575;
 }

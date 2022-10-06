@@ -1,13 +1,15 @@
 .group__filters {
-    display: flex;
+   
+  
+  
+  
+  display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    justify-content: center;
+    
     flex-direction: row;
 
-    @media screen and (min-weight:1200px) {
-      flex-wrap: nowrap;
-    }
+  
   }
 
 
