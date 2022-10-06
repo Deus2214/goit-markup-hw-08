@@ -819,7 +819,6 @@ textarea {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  width: 690px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -828,10 +827,21 @@ textarea {
   text-transform: uppercase;
   color: #ffffff;
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   .section__main__title {
-    width: 360px;
+    width: 393px;
   }
+}
+@media screen and (min-width: 1200px) {
+  .section__main__title {
+    width: 690px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .working {
@@ -846,6 +856,11 @@ textarea {
   text-transform: uppercase;
   margin-bottom: 12px;
   color: #212121;
+}
+@media screen and (max-width: 480px) {
+  .working__uppertitle {
+    text-align: center;
+  }
 }
 
 .working__list {
@@ -866,8 +881,20 @@ textarea {
   }
 }
 
-.working__item {
-  width: 270px;
+@media screen and (min-width: 480px) {
+  .working__item {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .working__item {
+    width: 270px;
+  }
 }
 
 .working__icon {
@@ -880,10 +907,24 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .working__icon {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .working__icon {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .working__icon {
+    width: 270px;
+  }
 }
 
 .working__text {
@@ -2105,8 +2146,7 @@ textarea {
   transition: -webkit-transform 400ms;
   transition: transform 400ms;
   transition: transform 400ms, -webkit-transform 400ms;
-  padding-top: 48px;
-  padding-left: 40px;
+  padding: 40px;
 }
 .menu-container.is-open {
   -webkit-transform: translateX(0);
@@ -2136,7 +2176,12 @@ textarea {
   display: flex;
   margin-top: 40px;
   gap: 40px;
-  padding-right: 83px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .link-2 {
@@ -2154,4 +2199,8 @@ textarea {
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.link-list {
+  margin-bottom: 32px;
 }/*# sourceMappingURL=main.css.map */

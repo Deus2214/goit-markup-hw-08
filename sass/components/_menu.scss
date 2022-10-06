@@ -33,8 +33,9 @@ flex-direction: column;
     &.is-open{
         transform: translateX(0);
     }
-padding-top: 48px;
-padding-left: 40px;
+// padding-top: 48px;
+// padding-left: 40px;
+padding: 40px;
 
 }
 
@@ -65,8 +66,15 @@ color: #212121;
     display: flex;
     margin-top: 40px;
     gap: 40px;
-    
-    padding-right: 83px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height, or 122% */
+
+letter-spacing: 0.02em;
+
+color: #2196F3;
+    // padding-right: 83px;
 }
 .link-2{
     font-weight: 500;
@@ -83,4 +91,7 @@ line-height: 28px;
 letter-spacing: 0.02em;
 
 color: #757575;
+}
+.link-list{
+    margin-bottom: 32px;
 }
