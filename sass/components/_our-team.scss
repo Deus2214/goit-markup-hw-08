@@ -15,28 +15,61 @@
     gap: 30px;
     justify-content: center;
     
+ 
+   
     @media screen and (min-width: 1200px) {
       flex-wrap: nowrap;
-          
+  
         }
 
 
   }
+
   .our-team__img-5 {
     
   
     background: url(2968.jpg);
     border-radius: 0px;
+    @media screen and (min-width: 480px) {
+  max-width: 450px;
+    }
+    @media screen and (min-width: 768px) {
+max-width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+     max-width: 270px;
+   
+        }
   }
   
   .our-team__img-6 {
   
     background: url(5844.jpg);
     border-radius: 0px;
+    @media screen and (min-width: 480px) {
+      max-width: 450px;
+        }
+        @media screen and (min-width: 768px) {
+    max-width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+         max-width: 270px;
+       
+            }
   }
   .our-team__img-7 {
     background: url(16166.jpg);
     border-radius: 0px;
+    @media screen and (min-width: 480px) {
+      max-width: 450px;
+        }
+        @media screen and (min-width: 768px) {
+    max-width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+         max-width: 270px;
+       
+            }
   }
   
   .our-team__img-8 {
@@ -44,6 +77,16 @@
   
     background: url(4853.jpg);
     border-radius: 0px;
+    @media screen and (min-width: 480px) {
+      max-width: 450px;
+        }
+        @media screen and (min-width: 768px) {
+    max-width: 354px;
+        }
+        @media screen and (min-width: 1200px) {
+         max-width: 270px;
+       
+            }
   }
   .our-team__social {
     display: flex;

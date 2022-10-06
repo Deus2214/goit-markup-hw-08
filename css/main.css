@@ -603,20 +603,80 @@ textarea {
   background: url(2968.jpg);
   border-radius: 0px;
 }
+@media screen and (min-width: 480px) {
+  .our-team__img-5 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team__img-5 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-team__img-5 {
+    max-width: 270px;
+  }
+}
 
 .our-team__img-6 {
   background: url(5844.jpg);
   border-radius: 0px;
+}
+@media screen and (min-width: 480px) {
+  .our-team__img-6 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team__img-6 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-team__img-6 {
+    max-width: 270px;
+  }
 }
 
 .our-team__img-7 {
   background: url(16166.jpg);
   border-radius: 0px;
 }
+@media screen and (min-width: 480px) {
+  .our-team__img-7 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team__img-7 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-team__img-7 {
+    max-width: 270px;
+  }
+}
 
 .our-team__img-8 {
   background: url(4853.jpg);
   border-radius: 0px;
+}
+@media screen and (min-width: 480px) {
+  .our-team__img-8 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .our-team__img-8 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .our-team__img-8 {
+    max-width: 270px;
+  }
 }
 
 .our-team__social {
@@ -813,14 +873,39 @@ textarea {
   padding: 200px 0;
   text-align: center;
   background: #2f303a;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/Img.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/responisvephoto/_imgheadsm-@1x.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/responisvephoto/_imgheadsm-@1x.png);
   background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   background-position: center;
   max-width: 1600px;
   height: 600px;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section__title {
+    background-image: url(../../images/responisvephoto/_imgheadsm-@2x.png);
+  }
+}
+@media screen and (min-width: 481px) {
+  .section__title {
+    background-image: url(../../images/responisvephoto/_imgheadtab-@1x.png);
+  }
+}
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .section__title {
+    background-image: url(../../images/responisvephoto/_imgheadtab-@2x.png);
+  }
+}
+@media screen and (min-width: 769px) {
+  .section__title {
+    background-image: url(../../images/responisvephoto/_imgheadtdec-@1x.png);
+  }
+}
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .section__title {
+    background-image: url(../../images/responisvephoto/_imgheadtdec-@2x.png);
+  }
 }
 
 .button {
@@ -1821,6 +1906,186 @@ a {
 .group__text:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.img-1 {
+  /* img */
+  background: url(portfolio1.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-1 {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-1 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-1 {
+    max-width: 370px;
+  }
+}
+
+.img-2 {
+  /* img */
+  background: url(portfolio2.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-2 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-2 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-2 {
+    max-width: 370px;
+  }
+}
+
+.img-3 {
+  /* img */
+  background: url(portfolio-1.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-3 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-3 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-3 {
+    max-width: 370px;
+  }
+}
+
+.img-4 {
+  /* img */
+  background: url(portfolio-2.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-4 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-4 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-4 {
+    max-width: 370px;
+  }
+}
+
+.img-5 {
+  /* img */
+  background: url(portfolio5.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-5 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-5 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-5 {
+    max-width: 370px;
+  }
+}
+
+.img-6 {
+  /* img */
+  background: url(111.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-6 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-6 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-6 {
+    max-width: 370px;
+  }
+}
+
+.img-7 {
+  /* img */
+  background: url(portfolio7.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-7 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-7 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-7 {
+    max-width: 370px;
+  }
+}
+
+.img-8 {
+  /* img */
+  background: url(portfolio8.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-8 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-8 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-8 {
+    max-width: 370px;
+  }
+}
+
+.img-9 {
+  /* img */
+  background: url(2910404.jpg);
+}
+@media screen and (min-width: 480px) {
+  .img-9 {
+    max-width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .img-9 {
+    max-width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-9 {
+    max-width: 370px;
+  }
 }
 
 .group__name {
