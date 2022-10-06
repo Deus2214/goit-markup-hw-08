@@ -21,20 +21,20 @@
     flex-wrap: wrap;
     gap: 20px;
     flex-direction: column;
-    margin-bottom: 30px;
-    margin-top: 20px;
+   
     justify-content: center;
-    padding-left: 109px;
+    margin-bottom: 60px;
+    margin-left: auto;
   }
 .footer__boxes{
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   flex-direction: column;
-  margin-bottom: 30px;
-  margin-top: 20px;
   justify-content: center;
-  padding-left: 109px;
+margin-right: 70px;
+margin-bottom: 60px;
+margin-left: auto;
 
 }
   
@@ -170,11 +170,16 @@
   
   
   .footer__site {
-    margin-left: auto;
-// padding-left: 109px;
+ margin-top: 60px;
   }
   
   .subscribe {
+    @media screen and (min-width:480px) {
+       text-align: center;
+    }
+    @media screen and (min-width:1200px) {
+      text-align: left; 
+   }
     color: var(--primary-text-color);
     font-style: normal;
     font-weight: 700;
@@ -182,7 +187,7 @@
     line-height: 16px;
     text-transform: uppercase;
     margin-bottom: 20px;
-   
+  
   }
   
   .form-text {

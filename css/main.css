@@ -1119,8 +1119,7 @@ li a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-right: 70px;
 }
 
 .footer__text {
@@ -1132,7 +1131,6 @@ li a:focus {
   text-transform: uppercase;
   color: white;
   margin-bottom: 20px;
-  padding-left: 20px;
 }
 
 .footer__icons {
@@ -1280,11 +1278,6 @@ li a:focus {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .form-text {
-    padding-left: 105px;
   }
 }
 
@@ -1892,12 +1885,11 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 30px;
-  margin-top: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 109px;
+  margin-bottom: 60px;
+  margin-left: auto;
 }
 
 .footer__boxes {
@@ -1911,12 +1903,12 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 30px;
-  margin-top: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-left: 109px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  margin-left: auto;
 }
 
 .footer__text {
@@ -2050,7 +2042,7 @@ a {
 }
 
 .footer__site {
-  margin-left: auto;
+  margin-top: 60px;
 }
 
 .subscribe {
@@ -2061,6 +2053,16 @@ a {
   line-height: 16px;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 480px) {
+  .subscribe {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    text-align: left;
+  }
 }
 
 .form-text {
