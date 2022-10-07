@@ -214,6 +214,36 @@
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav__groups {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  list-style: none;
+  color: #212121;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__groups::after {
+  content: "";
+  width: 78px;
+  height: 4px;
+  margin-top: 28px;
+  background: #2196f3;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  cursor: pointer;
+}
+
 .nav__mail-icon {
   margin-right: 10px;
   fill: currentColor;
@@ -2522,6 +2552,14 @@ textarea {
   letter-spacing: 0.02em;
   color: #212121;
   margin-bottom: 32px;
+  -webkit-transition-property: var(--accent-color);
+  transition-property: var(--accent-color);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 250ms;
+          transition-delay: 250ms;
 }
 
 .link-2:hover {
@@ -2538,6 +2576,14 @@ textarea {
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
+  -webkit-transition-property: var(--accent-color);
+  transition-property: var(--accent-color);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 250ms;
+          transition-delay: 250ms;
 }
 
 .link-list {
@@ -2557,6 +2603,14 @@ textarea {
   line-height: 22px;
   letter-spacing: 0.02em;
   color: #212121;
+  -webkit-transition-property: var(--accent-color);
+  transition-property: var(--accent-color);
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition-delay: 250ms;
+          transition-delay: 250ms;
 }
 
 .link:hover {
