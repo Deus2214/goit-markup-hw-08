@@ -59,6 +59,7 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(0);
+   
   }
   .portfolio-moving-link:hover .overlay {
     display: block;
@@ -79,14 +80,16 @@
   .group__text {
     @media screen and (min-width:480px) {
       width: 450px;
-      
+     
     }
     @media screen and (min-width: 768px) {
       width: 354px;
+   
     }
   
     @media screen and (min-width: 1200px) {
      width: 370px;
+    
     }
    
     text-decoration: none;
@@ -120,12 +123,15 @@
     background: url(portfolio1.jpg);
     @media screen and (min-width: 480px) {
       max-width: 480px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   
@@ -136,12 +142,15 @@
     background: url(portfolio2.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -151,12 +160,14 @@
     background: url(portfolio-1.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -166,12 +177,15 @@
     background: url(portfolio-2.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -181,12 +195,15 @@
     background: url(portfolio5.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -196,12 +213,15 @@
     background: url(111.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -211,12 +231,15 @@
     background: url(portfolio7.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -226,12 +249,15 @@
     background: url(portfolio8.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }
@@ -242,12 +268,15 @@
     background: url(2910404.jpg);
     @media screen and (min-width: 480px) {
       max-width: 450px;
+      max-height: 294px;
         }
         @media screen and (min-width: 768px) {
     max-width: 354px;
+    max-height: 294px;
         }
         @media screen and (min-width: 1200px) {
          max-width: 370px;
+         max-height: 294px;
        
             }
   }

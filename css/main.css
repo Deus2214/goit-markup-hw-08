@@ -621,6 +621,7 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
 }
 @media screen and (min-width: 1200px) {
   .our-team__list {
@@ -632,21 +633,6 @@ textarea {
 .our-team__img-5 {
   background: url(2968.jpg);
   border-radius: 0px;
-}
-@media screen and (min-width: 480px) {
-  .our-team__img-5 {
-    max-width: 450px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .our-team__img-5 {
-    max-width: 354px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .our-team__img-5 {
-    max-width: 270px;
-  }
 }
 
 .our-team__img-6 {
@@ -1220,7 +1206,6 @@ li a:focus {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -1239,7 +1224,11 @@ li a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
-  margin-bottom: 20px;
+}
+@media screen and (max-width: 1199px) {
+  .footer__text {
+    text-align: center;
+  }
 }
 
 .footer__icons {
@@ -1263,6 +1252,11 @@ li a:focus {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+@media screen and (max-width: 1199px) {
+  .footer__logo {
+    text-align: center;
+  }
+}
 
 .logo__light {
   color: #ffffff;
@@ -1271,6 +1265,11 @@ li a:focus {
 
 .address {
   font-style: normal;
+}
+@media screen and (max-width: 1199px) {
+  .address {
+    text-align: center;
+  }
 }
 
 .address-list {
@@ -1938,16 +1937,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-1 {
     max-width: 480px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-1 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-1 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -1958,16 +1960,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-2 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-2 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-2 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -1978,6 +1983,7 @@ a {
 @media screen and (min-width: 480px) {
   .img-3 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1988,6 +1994,7 @@ a {
 @media screen and (min-width: 1200px) {
   .img-3 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -1998,16 +2005,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-4 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-4 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-4 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2018,16 +2028,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-5 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-5 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-5 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2038,16 +2051,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-6 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-6 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-6 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2058,16 +2074,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-7 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-7 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-7 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2078,16 +2097,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-8 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-8 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-8 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2098,16 +2120,19 @@ a {
 @media screen and (min-width: 480px) {
   .img-9 {
     max-width: 450px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 768px) {
   .img-9 {
     max-width: 354px;
+    max-height: 294px;
   }
 }
 @media screen and (min-width: 1200px) {
   .img-9 {
     max-width: 370px;
+    max-height: 294px;
   }
 }
 
@@ -2191,11 +2216,11 @@ a {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: auto;
 }
 @media screen and (min-width: 480px) {
   .footer__box {
@@ -2222,11 +2247,14 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 70px;
+  margin-left: auto;
 }
 @media screen and (min-width: 480px) {
   .footer__boxes {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -2243,7 +2271,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: white;
-  margin-bottom: 20px;
 }
 
 .footer__icons {
@@ -2382,7 +2409,6 @@ a {
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 @media screen and (min-width: 480px) {
   .subscribe {
