@@ -37,10 +37,7 @@
    
   }
   .overlay-desc {
-    // width: 322px;
-    // height: 168px;
-    // left: 239px;
-    // top: 323px;
+   
   
     font-family: "Roboto";
     font-style: normal;
@@ -54,7 +51,8 @@
     color: #ffffff;
   }
   .portfolio-moving-link {
-    display: block;
+    display: flex;
+    flex-direction: column;
     transition-property: border, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,7 +89,7 @@
      width: 370px;
     
     }
-   
+   display: flex;
     text-decoration: none;
     
       overflow: hidden;
@@ -308,13 +306,10 @@
   .container-text2 {
     padding-left: 24px;
     padding-top: 20px;
-    padding-right: 24px;
     padding-bottom: 20px;
     border-right: 1px solid  rgb(240, 234, 234);
     border-left: 1px solid  rgb(240, 234, 234);
     border-bottom: 1px solid  rgb(240, 234, 234);
-    display: flex;
-    flex-direction: column;
     flex-grow: 1;
   }
   .text {
