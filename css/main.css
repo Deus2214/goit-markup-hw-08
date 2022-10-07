@@ -953,12 +953,15 @@ textarea {
   .section__main__title {
     width: 393px;
     font-size: 26px;
+    margin-top: 118px;
   }
 }
 @media screen and (min-width: 1200px) {
   .section__main__title {
     width: 690px;
     font-size: 44px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 }
 
