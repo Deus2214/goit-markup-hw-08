@@ -1360,7 +1360,7 @@ li a:focus {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .subscribe {
     text-align: center;
   }
@@ -2277,7 +2277,7 @@ a {
 
 .link-2 {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 26px;
   line-height: 40px;
   letter-spacing: 0.02em;
   color: #212121;
@@ -2302,7 +2302,7 @@ a {
 
 .links {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 36px;
   line-height: 28px;
   letter-spacing: 0.02em;
   color: #757575;
@@ -2314,6 +2314,11 @@ a {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-delay: 250ms;
           transition-delay: 250ms;
+}
+@media screen and (max-width: 479px) {
+  .links {
+    font-size: 24px;
+  }
 }
 
 .link-list {
@@ -2341,6 +2346,11 @@ a {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transition-delay: 250ms;
           transition-delay: 250ms;
+}
+@media screen and (max-width: 479px) {
+  .link {
+    font-size: 10px;
+  }
 }
 
 .link:hover {
