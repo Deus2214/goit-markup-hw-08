@@ -31,7 +31,11 @@
 }
 @media screen and (min-width:480px) {
 
-background-image: url(../images/responisvephoto/imgheadtab-@2x.png); 
+background-image:linear-gradient(
+  to right,
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+), url(../images/responisvephoto/imgheadtab-@2x.png); 
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) { 
@@ -47,7 +51,11 @@ background-image: url(../images/responisvephoto/imgheadtab-@2x.png);
 }
 @media screen and (min-width:769px) {
 
-   background-image: url(../images/responisvephoto/imgheadtdec-@2x.png);
+   background-image:linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ), url(../images/responisvephoto/imgheadtdec-@2x.png);
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) { 

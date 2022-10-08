@@ -896,7 +896,8 @@ textarea {
 }
 @media screen and (min-width: 480px) {
   .section__title {
-    background-image: url(../images/responisvephoto/imgheadtab-@2x.png);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/responisvephoto/imgheadtab-@2x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/responisvephoto/imgheadtab-@2x.png);
   }
 }
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
@@ -909,7 +910,8 @@ textarea {
 }
 @media screen and (min-width: 769px) {
   .section__title {
-    background-image: url(../images/responisvephoto/imgheadtdec-@2x.png);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/responisvephoto/imgheadtdec-@2x.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/responisvephoto/imgheadtdec-@2x.png);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
@@ -1192,7 +1194,11 @@ li a:focus {
 
 .footer__box {
   text-align: center;
-  margin-bottom: 60px;
+}
+@media screen and (max-width: 767px) {
+  .footer__box {
+    margin-bottom: 60px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer__box {
@@ -1383,7 +1389,7 @@ li a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1199px) {
   .form-text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
